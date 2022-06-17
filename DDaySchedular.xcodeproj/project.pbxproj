@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059FCE54285CB31100F74B6D /* DDaySchedularApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */; };
+		059FCE56285CB31100F74B6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE55285CB31100F74B6D /* ContentView.swift */; };
+		059FCE58285CB31200F74B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059FCE57285CB31200F74B6D /* Assets.xcassets */; };
+		059FCE5B285CB31200F74B6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059FCE5A285CB31200F74B6D /* Preview Assets.xcassets */; };
+		059FCE5D285CB31200F74B6D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE5C285CB31200F74B6D /* Persistence.swift */; };
+		059FCE60285CB31200F74B6D /* DDaySchedular.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE5E285CB31200F74B6D /* DDaySchedular.xcdatamodeld */; };
+		059FCE6A285CB31200F74B6D /* DDaySchedularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE69285CB31200F74B6D /* DDaySchedularTests.swift */; };
+		059FCE74285CB31200F74B6D /* DDaySchedularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE73285CB31200F74B6D /* DDaySchedularUITests.swift */; };
+		059FCE76285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE75285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		059FCE66285CB31200F74B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059FCE48285CB31100F74B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059FCE4F285CB31100F74B6D;
+			remoteInfo = DDaySchedular;
+		};
+		059FCE70285CB31200F74B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059FCE48285CB31100F74B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059FCE4F285CB31100F74B6D;
+			remoteInfo = DDaySchedular;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059FCE50285CB31100F74B6D /* DDaySchedular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDaySchedular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularApp.swift; sourceTree = "<group>"; };
+		059FCE55285CB31100F74B6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		059FCE57285CB31200F74B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		059FCE5A285CB31200F74B6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		059FCE5C285CB31200F74B6D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		059FCE5F285CB31200F74B6D /* DDaySchedular.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DDaySchedular.xcdatamodel; sourceTree = "<group>"; };
+		059FCE65285CB31200F74B6D /* DDaySchedularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDaySchedularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059FCE69285CB31200F74B6D /* DDaySchedularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularTests.swift; sourceTree = "<group>"; };
+		059FCE6F285CB31200F74B6D /* DDaySchedularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDaySchedularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059FCE73285CB31200F74B6D /* DDaySchedularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularUITests.swift; sourceTree = "<group>"; };
+		059FCE75285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059FCE4D285CB31100F74B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059FCE62285CB31200F74B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059FCE6C285CB31200F74B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059FCE47285CB31100F74B6D = {
+			isa = PBXGroup;
+			children = (
+				059FCE52285CB31100F74B6D /* DDaySchedular */,
+				059FCE68285CB31200F74B6D /* DDaySchedularTests */,
+				059FCE72285CB31200F74B6D /* DDaySchedularUITests */,
+				059FCE51285CB31100F74B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		059FCE51285CB31100F74B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE50285CB31100F74B6D /* DDaySchedular.app */,
+				059FCE65285CB31200F74B6D /* DDaySchedularTests.xctest */,
+				059FCE6F285CB31200F74B6D /* DDaySchedularUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059FCE52285CB31100F74B6D /* DDaySchedular */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */,
+				059FCE55285CB31100F74B6D /* ContentView.swift */,
+				059FCE57285CB31200F74B6D /* Assets.xcassets */,
+				059FCE5C285CB31200F74B6D /* Persistence.swift */,
+				059FCE5E285CB31200F74B6D /* DDaySchedular.xcdatamodeld */,
+				059FCE59285CB31200F74B6D /* Preview Content */,
+			);
+			path = DDaySchedular;
+			sourceTree = "<group>";
+		};
+		059FCE59285CB31200F74B6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE5A285CB31200F74B6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		059FCE68285CB31200F74B6D /* DDaySchedularTests */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE69285CB31200F74B6D /* DDaySchedularTests.swift */,
+			);
+			path = DDaySchedularTests;
+			sourceTree = "<group>";
+		};
+		059FCE72285CB31200F74B6D /* DDaySchedularUITests */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE73285CB31200F74B6D /* DDaySchedularUITests.swift */,
+				059FCE75285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift */,
+			);
+			path = DDaySchedularUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		059FCE4F285CB31100F74B6D /* DDaySchedular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059FCE79285CB31200F74B6D /* Build configuration list for PBXNativeTarget "DDaySchedular" */;
+			buildPhases = (
+				059FCE4C285CB31100F74B6D /* Sources */,
+				059FCE4D285CB31100F74B6D /* Frameworks */,
+				059FCE4E285CB31100F74B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDaySchedular;
+			productName = DDaySchedular;
+			productReference = 059FCE50285CB31100F74B6D /* DDaySchedular.app */;
+			productType = "com.apple.product-type.application";
+		};
+		059FCE64285CB31200F74B6D /* DDaySchedularTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059FCE7C285CB31200F74B6D /* Build configuration list for PBXNativeTarget "DDaySchedularTests" */;
+			buildPhases = (
+				059FCE61285CB31200F74B6D /* Sources */,
+				059FCE62285CB31200F74B6D /* Frameworks */,
+				059FCE63285CB31200F74B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059FCE67285CB31200F74B6D /* PBXTargetDependency */,
+			);
+			name = DDaySchedularTests;
+			productName = DDaySchedularTests;
+			productReference = 059FCE65285CB31200F74B6D /* DDaySchedularTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		059FCE6E285CB31200F74B6D /* DDaySchedularUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059FCE7F285CB31200F74B6D /* Build configuration list for PBXNativeTarget "DDaySchedularUITests" */;
+			buildPhases = (
+				059FCE6B285CB31200F74B6D /* Sources */,
+				059FCE6C285CB31200F74B6D /* Frameworks */,
+				059FCE6D285CB31200F74B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059FCE71285CB31200F74B6D /* PBXTargetDependency */,
+			);
+			name = DDaySchedularUITests;
+			productName = DDaySchedularUITests;
+			productReference = 059FCE6F285CB31200F74B6D /* DDaySchedularUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		059FCE48285CB31100F74B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					059FCE4F285CB31100F74B6D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					059FCE64285CB31200F74B6D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 059FCE4F285CB31100F74B6D;
+					};
+					059FCE6E285CB31200F74B6D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 059FCE4F285CB31100F74B6D;
+					};
+				};
+			};
+			buildConfigurationList = 059FCE4B285CB31100F74B6D /* Build configuration list for PBXProject "DDaySchedular" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 059FCE47285CB31100F74B6D;
+			productRefGroup = 059FCE51285CB31100F74B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059FCE4F285CB31100F74B6D /* DDaySchedular */,
+				059FCE64285CB31200F74B6D /* DDaySchedularTests */,
+				059FCE6E285CB31200F74B6D /* DDaySchedularUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		059FCE4E285CB31100F74B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059FCE5B285CB31200F74B6D /* Preview Assets.xcassets in Resources */,
+				059FCE58285CB31200F74B6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059FCE63285CB31200F74B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059FCE6D285CB31200F74B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059FCE4C285CB31100F74B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059FCE5D285CB31200F74B6D /* Persistence.swift in Sources */,
+				059FCE56285CB31100F74B6D /* ContentView.swift in Sources */,
+				059FCE54285CB31100F74B6D /* DDaySchedularApp.swift in Sources */,
+				059FCE60285CB31200F74B6D /* DDaySchedular.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059FCE61285CB31200F74B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059FCE6A285CB31200F74B6D /* DDaySchedularTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059FCE6B285CB31200F74B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059FCE76285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift in Sources */,
+				059FCE74285CB31200F74B6D /* DDaySchedularUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		059FCE67285CB31200F74B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059FCE4F285CB31100F74B6D /* DDaySchedular */;
+			targetProxy = 059FCE66285CB31200F74B6D /* PBXContainerItemProxy */;
+		};
+		059FCE71285CB31200F74B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059FCE4F285CB31100F74B6D /* DDaySchedular */;
+			targetProxy = 059FCE70285CB31200F74B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		059FCE77285CB31200F74B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		059FCE78285CB31200F74B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		059FCE7A285CB31200F74B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDaySchedular/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDaySchedular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		059FCE7B285CB31200F74B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDaySchedular/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDaySchedular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		059FCE7D285CB31200F74B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDaySchedularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDaySchedular.app/DDaySchedular";
+			};
+			name = Debug;
+		};
+		059FCE7E285CB31200F74B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDaySchedularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDaySchedular.app/DDaySchedular";
+			};
+			name = Release;
+		};
+		059FCE80285CB31200F74B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDaySchedularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DDaySchedular;
+			};
+			name = Debug;
+		};
+		059FCE81285CB31200F74B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDaySchedularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DDaySchedular;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059FCE4B285CB31100F74B6D /* Build configuration list for PBXProject "DDaySchedular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059FCE77285CB31200F74B6D /* Debug */,
+				059FCE78285CB31200F74B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059FCE79285CB31200F74B6D /* Build configuration list for PBXNativeTarget "DDaySchedular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059FCE7A285CB31200F74B6D /* Debug */,
+				059FCE7B285CB31200F74B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059FCE7C285CB31200F74B6D /* Build configuration list for PBXNativeTarget "DDaySchedularTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059FCE7D285CB31200F74B6D /* Debug */,
+				059FCE7E285CB31200F74B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059FCE7F285CB31200F74B6D /* Build configuration list for PBXNativeTarget "DDaySchedularUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059FCE80285CB31200F74B6D /* Debug */,
+				059FCE81285CB31200F74B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		059FCE5E285CB31200F74B6D /* DDaySchedular.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				059FCE5F285CB31200F74B6D /* DDaySchedular.xcdatamodel */,
+			);
+			currentVersion = 059FCE5F285CB31200F74B6D /* DDaySchedular.xcdatamodel */;
+			path = DDaySchedular.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 059FCE48285CB31100F74B6D /* Project object */;
+}
