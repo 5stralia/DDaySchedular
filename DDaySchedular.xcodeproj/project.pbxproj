@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05684292285CEFB800926194 /* DDaySchedular Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 05684291285CEFB800926194 /* DDaySchedular Watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		05684297285CEFB900926194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05684296285CEFB900926194 /* Assets.xcassets */; };
+		0568429D285CEFB900926194 /* DDaySchedular Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0568429C285CEFB900926194 /* DDaySchedular Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		056842A2285CEFB900926194 /* DDaySchedularApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842A1285CEFB900926194 /* DDaySchedularApp.swift */; };
+		056842A4285CEFB900926194 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842A3285CEFB900926194 /* ContentView.swift */; };
+		056842A6285CEFB900926194 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842A5285CEFB900926194 /* NotificationController.swift */; };
+		056842A8285CEFB900926194 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842A7285CEFB900926194 /* NotificationView.swift */; };
+		056842AA285CEFB900926194 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842A9285CEFB900926194 /* ComplicationController.swift */; };
+		056842AC285CEFBA00926194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056842AB285CEFBA00926194 /* Assets.xcassets */; };
+		056842AF285CEFBA00926194 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056842AE285CEFBA00926194 /* Preview Assets.xcassets */; };
+		056842BB285CEFBA00926194 /* DDaySchedular_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842BA285CEFBA00926194 /* DDaySchedular_WatchTests.swift */; };
+		056842C5285CEFBA00926194 /* DDaySchedular_WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842C4285CEFBA00926194 /* DDaySchedular_WatchUITests.swift */; };
+		056842C7285CEFBA00926194 /* DDaySchedular_WatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842C6285CEFBA00926194 /* DDaySchedular_WatchUITestsLaunchTests.swift */; };
+		056842DA285CF00300926194 /* ComplicationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842D9285CF00300926194 /* ComplicationViews.swift */; };
+		056842DB285CF00300926194 /* ComplicationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842D9285CF00300926194 /* ComplicationViews.swift */; };
+		056842E5285D8A3600926194 /* Date+calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842E4285D8A3600926194 /* Date+calculate.swift */; };
+		056842E7285D941400926194 /* EditDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842E6285D941400926194 /* EditDetailView.swift */; };
+		056842EA285DD77F00926194 /* TextInputAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842E9285DD77F00926194 /* TextInputAlertView.swift */; };
+		056842EC285E025100926194 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842EB285E025100926194 /* Popup.swift */; };
+		056842F2286086A000926194 /* Item+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842F1286086A000926194 /* Item+Identifiable.swift */; };
 		059FCE54285CB31100F74B6D /* DDaySchedularApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */; };
 		059FCE56285CB31100F74B6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE55285CB31100F74B6D /* ContentView.swift */; };
 		059FCE58285CB31200F74B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059FCE57285CB31200F74B6D /* Assets.xcassets */; };
@@ -16,9 +36,40 @@
 		059FCE6A285CB31200F74B6D /* DDaySchedularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE69285CB31200F74B6D /* DDaySchedularTests.swift */; };
 		059FCE74285CB31200F74B6D /* DDaySchedularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE73285CB31200F74B6D /* DDaySchedularUITests.swift */; };
 		059FCE76285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE75285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift */; };
+		059FCE84285CB87C00F74B6D /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE83285CB87C00F74B6D /* ListItemView.swift */; };
+		059FCE8B285CBE9700F74B6D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE8A285CBE9700F74B6D /* DetailView.swift */; };
+		059FCE8D285CC8C100F74B6D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE8C285CC8C100F74B6D /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		05684293285CEFB800926194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059FCE48285CB31100F74B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05684290285CEFB800926194;
+			remoteInfo = "DDaySchedular Watch WatchKit App";
+		};
+		0568429E285CEFB900926194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059FCE48285CB31100F74B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0568429B285CEFB900926194;
+			remoteInfo = "DDaySchedular Watch WatchKit Extension";
+		};
+		056842B7285CEFBA00926194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059FCE48285CB31100F74B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0568429B285CEFB900926194;
+			remoteInfo = "DDaySchedular Watch WatchKit Extension";
+		};
+		056842C1285CEFBA00926194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059FCE48285CB31100F74B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05684290285CEFB800926194;
+			remoteInfo = "DDaySchedular Watch WatchKit App";
+		};
 		059FCE66285CB31200F74B6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 059FCE48285CB31100F74B6D /* Project object */;
@@ -35,7 +86,57 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		056842CB285CEFBA00926194 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0568429D285CEFB900926194 /* DDaySchedular Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056842CF285CEFBA00926194 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				05684292285CEFB800926194 /* DDaySchedular Watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0568428E285CEFB800926194 /* DDaySchedular Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DDaySchedular Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05684291285CEFB800926194 /* DDaySchedular Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DDaySchedular Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05684296285CEFB900926194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0568429C285CEFB900926194 /* DDaySchedular Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DDaySchedular Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056842A1285CEFB900926194 /* DDaySchedularApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularApp.swift; sourceTree = "<group>"; };
+		056842A3285CEFB900926194 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		056842A5285CEFB900926194 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		056842A7285CEFB900926194 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		056842A9285CEFB900926194 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		056842AB285CEFBA00926194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056842AE285CEFBA00926194 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		056842B0285CEFBA00926194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056842B1285CEFBA00926194 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		056842B6285CEFBA00926194 /* DDaySchedular WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DDaySchedular WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056842BA285CEFBA00926194 /* DDaySchedular_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedular_WatchTests.swift; sourceTree = "<group>"; };
+		056842C0285CEFBA00926194 /* DDaySchedular WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DDaySchedular WatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056842C4285CEFBA00926194 /* DDaySchedular_WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedular_WatchUITests.swift; sourceTree = "<group>"; };
+		056842C6285CEFBA00926194 /* DDaySchedular_WatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedular_WatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		056842D9285CF00300926194 /* ComplicationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationViews.swift; sourceTree = "<group>"; };
+		056842DC285D7BA000926194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		056842E4285D8A3600926194 /* Date+calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+calculate.swift"; sourceTree = "<group>"; };
+		056842E6285D941400926194 /* EditDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDetailView.swift; sourceTree = "<group>"; };
+		056842E9285DD77F00926194 /* TextInputAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputAlertView.swift; sourceTree = "<group>"; };
+		056842EB285E025100926194 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		056842F1286086A000926194 /* Item+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Identifiable.swift"; sourceTree = "<group>"; };
 		059FCE50285CB31100F74B6D /* DDaySchedular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDaySchedular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularApp.swift; sourceTree = "<group>"; };
 		059FCE55285CB31100F74B6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,9 +149,33 @@
 		059FCE6F285CB31200F74B6D /* DDaySchedularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDaySchedularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059FCE73285CB31200F74B6D /* DDaySchedularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularUITests.swift; sourceTree = "<group>"; };
 		059FCE75285CB31200F74B6D /* DDaySchedularUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		059FCE83285CB87C00F74B6D /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		059FCE8A285CBE9700F74B6D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		059FCE8C285CC8C100F74B6D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05684299285CEFB900926194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056842B3285CEFBA00926194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056842BD285CEFBA00926194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		059FCE4D285CB31100F74B6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,12 +200,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0568428B285CECE600926194 /* Complecation */ = {
+			isa = PBXGroup;
+			children = (
+				056842D9285CF00300926194 /* ComplicationViews.swift */,
+			);
+			path = Complecation;
+			sourceTree = "<group>";
+		};
+		05684295285CEFB800926194 /* DDaySchedular Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				05684296285CEFB900926194 /* Assets.xcassets */,
+			);
+			path = "DDaySchedular Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		056842A0285CEFB900926194 /* DDaySchedular Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				056842A1285CEFB900926194 /* DDaySchedularApp.swift */,
+				056842A3285CEFB900926194 /* ContentView.swift */,
+				056842A5285CEFB900926194 /* NotificationController.swift */,
+				056842A7285CEFB900926194 /* NotificationView.swift */,
+				056842A9285CEFB900926194 /* ComplicationController.swift */,
+				056842AB285CEFBA00926194 /* Assets.xcassets */,
+				056842B0285CEFBA00926194 /* Info.plist */,
+				056842B1285CEFBA00926194 /* PushNotificationPayload.apns */,
+				056842AD285CEFBA00926194 /* Preview Content */,
+			);
+			path = "DDaySchedular Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		056842AD285CEFBA00926194 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				056842AE285CEFBA00926194 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		056842B9285CEFBA00926194 /* DDaySchedular WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				056842BA285CEFBA00926194 /* DDaySchedular_WatchTests.swift */,
+			);
+			path = "DDaySchedular WatchTests";
+			sourceTree = "<group>";
+		};
+		056842C3285CEFBA00926194 /* DDaySchedular WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				056842C4285CEFBA00926194 /* DDaySchedular_WatchUITests.swift */,
+				056842C6285CEFBA00926194 /* DDaySchedular_WatchUITestsLaunchTests.swift */,
+			);
+			path = "DDaySchedular WatchUITests";
+			sourceTree = "<group>";
+		};
+		056842E3285D8A2C00926194 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				056842E4285D8A3600926194 /* Date+calculate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		056842E8285DD76C00926194 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				056842E9285DD77F00926194 /* TextInputAlertView.swift */,
+				056842EB285E025100926194 /* Popup.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		059FCE47285CB31100F74B6D = {
 			isa = PBXGroup;
 			children = (
 				059FCE52285CB31100F74B6D /* DDaySchedular */,
 				059FCE68285CB31200F74B6D /* DDaySchedularTests */,
 				059FCE72285CB31200F74B6D /* DDaySchedularUITests */,
+				05684295285CEFB800926194 /* DDaySchedular Watch WatchKit App */,
+				056842A0285CEFB900926194 /* DDaySchedular Watch WatchKit Extension */,
+				056842B9285CEFBA00926194 /* DDaySchedular WatchTests */,
+				056842C3285CEFBA00926194 /* DDaySchedular WatchUITests */,
 				059FCE51285CB31100F74B6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +294,11 @@
 				059FCE50285CB31100F74B6D /* DDaySchedular.app */,
 				059FCE65285CB31200F74B6D /* DDaySchedularTests.xctest */,
 				059FCE6F285CB31200F74B6D /* DDaySchedularUITests.xctest */,
+				0568428E285CEFB800926194 /* DDaySchedular Watch.app */,
+				05684291285CEFB800926194 /* DDaySchedular Watch WatchKit App.app */,
+				0568429C285CEFB900926194 /* DDaySchedular Watch WatchKit Extension.appex */,
+				056842B6285CEFBA00926194 /* DDaySchedular WatchTests.xctest */,
+				056842C0285CEFBA00926194 /* DDaySchedular WatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +306,18 @@
 		059FCE52285CB31100F74B6D /* DDaySchedular */ = {
 			isa = PBXGroup;
 			children = (
+				056842E8285DD76C00926194 /* Common */,
+				056842E3285D8A2C00926194 /* Extension */,
+				056842DC285D7BA000926194 /* Info.plist */,
+				0568428B285CECE600926194 /* Complecation */,
+				059FCE89285CBE8600F74B6D /* Detail */,
+				059FCE85285CBB1400F74B6D /* Listing */,
 				059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */,
 				059FCE55285CB31100F74B6D /* ContentView.swift */,
 				059FCE57285CB31200F74B6D /* Assets.xcassets */,
 				059FCE5C285CB31200F74B6D /* Persistence.swift */,
 				059FCE5E285CB31200F74B6D /* DDaySchedular.xcdatamodeld */,
+				056842F1286086A000926194 /* Item+Identifiable.swift */,
 				059FCE59285CB31200F74B6D /* Preview Content */,
 			);
 			path = DDaySchedular;
@@ -133,9 +348,114 @@
 			path = DDaySchedularUITests;
 			sourceTree = "<group>";
 		};
+		059FCE85285CBB1400F74B6D /* Listing */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE83285CB87C00F74B6D /* ListItemView.swift */,
+				059FCE8C285CC8C100F74B6D /* ListView.swift */,
+			);
+			path = Listing;
+			sourceTree = "<group>";
+		};
+		059FCE89285CBE8600F74B6D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE8A285CBE9700F74B6D /* DetailView.swift */,
+				056842E6285D941400926194 /* EditDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0568428D285CEFB800926194 /* DDaySchedular Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056842D0285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular Watch" */;
+			buildPhases = (
+				0568428C285CEFB800926194 /* Resources */,
+				056842CF285CEFBA00926194 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05684294285CEFB800926194 /* PBXTargetDependency */,
+			);
+			name = "DDaySchedular Watch";
+			productName = "DDaySchedular Watch";
+			productReference = 0568428E285CEFB800926194 /* DDaySchedular Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		05684290285CEFB800926194 /* DDaySchedular Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056842CC285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular Watch WatchKit App" */;
+			buildPhases = (
+				0568428F285CEFB800926194 /* Resources */,
+				056842CB285CEFBA00926194 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0568429F285CEFB900926194 /* PBXTargetDependency */,
+			);
+			name = "DDaySchedular Watch WatchKit App";
+			productName = "DDaySchedular Watch WatchKit App";
+			productReference = 05684291285CEFB800926194 /* DDaySchedular Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0568429B285CEFB900926194 /* DDaySchedular Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056842C8285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular Watch WatchKit Extension" */;
+			buildPhases = (
+				05684298285CEFB900926194 /* Sources */,
+				05684299285CEFB900926194 /* Frameworks */,
+				0568429A285CEFB900926194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DDaySchedular Watch WatchKit Extension";
+			productName = "DDaySchedular Watch WatchKit Extension";
+			productReference = 0568429C285CEFB900926194 /* DDaySchedular Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		056842B5285CEFBA00926194 /* DDaySchedular WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056842D3285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular WatchTests" */;
+			buildPhases = (
+				056842B2285CEFBA00926194 /* Sources */,
+				056842B3285CEFBA00926194 /* Frameworks */,
+				056842B4285CEFBA00926194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056842B8285CEFBA00926194 /* PBXTargetDependency */,
+			);
+			name = "DDaySchedular WatchTests";
+			productName = "DDaySchedular WatchTests";
+			productReference = 056842B6285CEFBA00926194 /* DDaySchedular WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		056842BF285CEFBA00926194 /* DDaySchedular WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056842D6285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular WatchUITests" */;
+			buildPhases = (
+				056842BC285CEFBA00926194 /* Sources */,
+				056842BD285CEFBA00926194 /* Frameworks */,
+				056842BE285CEFBA00926194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056842C2285CEFBA00926194 /* PBXTargetDependency */,
+			);
+			name = "DDaySchedular WatchUITests";
+			productName = "DDaySchedular WatchUITests";
+			productReference = 056842C0285CEFBA00926194 /* DDaySchedular WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		059FCE4F285CB31100F74B6D /* DDaySchedular */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 059FCE79285CB31200F74B6D /* Build configuration list for PBXNativeTarget "DDaySchedular" */;
@@ -143,6 +463,7 @@
 				059FCE4C285CB31100F74B6D /* Sources */,
 				059FCE4D285CB31100F74B6D /* Frameworks */,
 				059FCE4E285CB31100F74B6D /* Resources */,
+				059FCE82285CB37C00F74B6D /* Run Script SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -199,6 +520,23 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					0568428D285CEFB800926194 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					05684290285CEFB800926194 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0568429B285CEFB900926194 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					056842B5285CEFBA00926194 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0568429B285CEFB900926194;
+					};
+					056842BF285CEFBA00926194 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 05684290285CEFB800926194;
+					};
 					059FCE4F285CB31100F74B6D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -228,11 +566,54 @@
 				059FCE4F285CB31100F74B6D /* DDaySchedular */,
 				059FCE64285CB31200F74B6D /* DDaySchedularTests */,
 				059FCE6E285CB31200F74B6D /* DDaySchedularUITests */,
+				0568428D285CEFB800926194 /* DDaySchedular Watch */,
+				05684290285CEFB800926194 /* DDaySchedular Watch WatchKit App */,
+				0568429B285CEFB900926194 /* DDaySchedular Watch WatchKit Extension */,
+				056842B5285CEFBA00926194 /* DDaySchedular WatchTests */,
+				056842BF285CEFBA00926194 /* DDaySchedular WatchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0568428C285CEFB800926194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0568428F285CEFB800926194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05684297285CEFB900926194 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0568429A285CEFB900926194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056842AF285CEFBA00926194 /* Preview Assets.xcassets in Resources */,
+				056842AC285CEFBA00926194 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056842B4285CEFBA00926194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056842BE285CEFBA00926194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		059FCE4E285CB31100F74B6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,15 +639,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		059FCE82285CB37C00F74B6D /* Run Script SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif which swiftlint >/dev/null; then\n    swiftlint --fix\nelse\n    echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		05684298285CEFB900926194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056842A6285CEFB900926194 /* NotificationController.swift in Sources */,
+				056842A4285CEFB900926194 /* ContentView.swift in Sources */,
+				056842DB285CF00300926194 /* ComplicationViews.swift in Sources */,
+				056842AA285CEFB900926194 /* ComplicationController.swift in Sources */,
+				056842A2285CEFB900926194 /* DDaySchedularApp.swift in Sources */,
+				056842A8285CEFB900926194 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056842B2285CEFBA00926194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056842BB285CEFBA00926194 /* DDaySchedular_WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056842BC285CEFBA00926194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056842C7285CEFBA00926194 /* DDaySchedular_WatchUITestsLaunchTests.swift in Sources */,
+				056842C5285CEFBA00926194 /* DDaySchedular_WatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		059FCE4C285CB31100F74B6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056842EC285E025100926194 /* Popup.swift in Sources */,
 				059FCE5D285CB31200F74B6D /* Persistence.swift in Sources */,
+				059FCE8D285CC8C100F74B6D /* ListView.swift in Sources */,
 				059FCE56285CB31100F74B6D /* ContentView.swift in Sources */,
+				056842E7285D941400926194 /* EditDetailView.swift in Sources */,
+				056842EA285DD77F00926194 /* TextInputAlertView.swift in Sources */,
+				056842F2286086A000926194 /* Item+Identifiable.swift in Sources */,
+				056842DA285CF00300926194 /* ComplicationViews.swift in Sources */,
 				059FCE54285CB31100F74B6D /* DDaySchedularApp.swift in Sources */,
+				059FCE8B285CBE9700F74B6D /* DetailView.swift in Sources */,
 				059FCE60285CB31200F74B6D /* DDaySchedular.xcdatamodeld in Sources */,
+				059FCE84285CB87C00F74B6D /* ListItemView.swift in Sources */,
+				056842E5285D8A3600926194 /* Date+calculate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +731,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		05684294285CEFB800926194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05684290285CEFB800926194 /* DDaySchedular Watch WatchKit App */;
+			targetProxy = 05684293285CEFB800926194 /* PBXContainerItemProxy */;
+		};
+		0568429F285CEFB900926194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0568429B285CEFB900926194 /* DDaySchedular Watch WatchKit Extension */;
+			targetProxy = 0568429E285CEFB900926194 /* PBXContainerItemProxy */;
+		};
+		056842B8285CEFBA00926194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0568429B285CEFB900926194 /* DDaySchedular Watch WatchKit Extension */;
+			targetProxy = 056842B7285CEFBA00926194 /* PBXContainerItemProxy */;
+		};
+		056842C2285CEFBA00926194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05684290285CEFB800926194 /* DDaySchedular Watch WatchKit App */;
+			targetProxy = 056842C1285CEFBA00926194 /* PBXContainerItemProxy */;
+		};
 		059FCE67285CB31200F74B6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 059FCE4F285CB31100F74B6D /* DDaySchedular */;
@@ -303,6 +764,226 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		056842C9285CEFBA00926194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDaySchedular Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DDaySchedular Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DDaySchedular Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		056842CA285CEFBA00926194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDaySchedular Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DDaySchedular Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DDaySchedular Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		056842CD285CEFBA00926194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DDaySchedular_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DDaySchedular Watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		056842CE285CEFBA00926194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DDaySchedular_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DDaySchedular Watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		056842D1285CEFBA00926194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		056842D2285CEFBA00926194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		056842D4285CEFBA00926194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDaySchedular Watch WatchKit Extension.appex/DDaySchedular Watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		056842D5285CEFBA00926194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDaySchedular Watch WatchKit Extension.appex/DDaySchedular Watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		056842D7285CEFBA00926194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DDaySchedular Watch WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		056842D8285CEFBA00926194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoju.DDaySchedular-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DDaySchedular Watch WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
 		059FCE77285CB31200F74B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,7 +1109,7 @@
 				DEVELOPMENT_TEAM = BG5DA8S34C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DDaySchedular/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -457,7 +1138,7 @@
 				DEVELOPMENT_TEAM = BG5DA8S34C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DDaySchedular/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -554,6 +1235,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		056842C8285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056842C9285CEFBA00926194 /* Debug */,
+				056842CA285CEFBA00926194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056842CC285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056842CD285CEFBA00926194 /* Debug */,
+				056842CE285CEFBA00926194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056842D0285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056842D1285CEFBA00926194 /* Debug */,
+				056842D2285CEFBA00926194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056842D3285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056842D4285CEFBA00926194 /* Debug */,
+				056842D5285CEFBA00926194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056842D6285CEFBA00926194 /* Build configuration list for PBXNativeTarget "DDaySchedular WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056842D7285CEFBA00926194 /* Debug */,
+				056842D8285CEFBA00926194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		059FCE4B285CB31100F74B6D /* Build configuration list for PBXProject "DDaySchedular" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

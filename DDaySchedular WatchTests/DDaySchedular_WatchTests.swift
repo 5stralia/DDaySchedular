@@ -1,14 +1,14 @@
 //
-//  DDaySchedularTests.swift
-//  DDaySchedularTests
+//  DDaySchedular_WatchTests.swift
+//  DDaySchedular WatchTests
 //
-//  Created by Hoju Choi on 2022/06/17.
+//  Created by Hoju Choi on 2022/06/18.
 //
 
 import XCTest
-@testable import DDaySchedular
+@testable import DDaySchedular_Watch_WatchKit_Extension
 
-class DDaySchedularTests: XCTestCase {
+class DDaySchedular_WatchTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -23,8 +23,7 @@ class DDaySchedularTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete.
-        // Check the results with assertions afterwards.
+        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
 
     func testPerformanceExample() throws {
