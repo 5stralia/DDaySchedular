@@ -27,6 +27,10 @@
 		056842EA285DD77F00926194 /* TextInputAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842E9285DD77F00926194 /* TextInputAlertView.swift */; };
 		056842EC285E025100926194 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842EB285E025100926194 /* Popup.swift */; };
 		056842F2286086A000926194 /* Item+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056842F1286086A000926194 /* Item+Identifiable.swift */; };
+		05684331286DD58800926194 /* EditDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05684330286DD58800926194 /* EditDetailViewModel.swift */; };
+		05684333286DE01600926194 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05684332286DE01600926194 /* DetailViewModel.swift */; };
+		05684335286DE20800926194 /* ListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05684334286DE20800926194 /* ListItemViewModel.swift */; };
+		05684338286DE37800926194 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05684337286DE37800926194 /* ListViewModel.swift */; };
 		059FCE54285CB31100F74B6D /* DDaySchedularApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */; };
 		059FCE56285CB31100F74B6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059FCE55285CB31100F74B6D /* ContentView.swift */; };
 		059FCE58285CB31200F74B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059FCE57285CB31200F74B6D /* Assets.xcassets */; };
@@ -137,6 +141,10 @@
 		056842E9285DD77F00926194 /* TextInputAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputAlertView.swift; sourceTree = "<group>"; };
 		056842EB285E025100926194 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
 		056842F1286086A000926194 /* Item+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Identifiable.swift"; sourceTree = "<group>"; };
+		05684330286DD58800926194 /* EditDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDetailViewModel.swift; sourceTree = "<group>"; };
+		05684332286DE01600926194 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		05684334286DE20800926194 /* ListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewModel.swift; sourceTree = "<group>"; };
+		05684337286DE37800926194 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		059FCE50285CB31100F74B6D /* DDaySchedular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDaySchedular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDaySchedularApp.swift; sourceTree = "<group>"; };
 		059FCE55285CB31100F74B6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -274,6 +282,24 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		0568432F286DD57600926194 /* EditDetail */ = {
+			isa = PBXGroup;
+			children = (
+				056842E6285D941400926194 /* EditDetailView.swift */,
+				05684330286DD58800926194 /* EditDetailViewModel.swift */,
+			);
+			path = EditDetail;
+			sourceTree = "<group>";
+		};
+		05684336286DE36100926194 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				059FCE83285CB87C00F74B6D /* ListItemView.swift */,
+				05684334286DE20800926194 /* ListItemViewModel.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
 		059FCE47285CB31100F74B6D = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +336,7 @@
 				056842E3285D8A2C00926194 /* Extension */,
 				056842DC285D7BA000926194 /* Info.plist */,
 				0568428B285CECE600926194 /* Complecation */,
+				0568432F286DD57600926194 /* EditDetail */,
 				059FCE89285CBE8600F74B6D /* Detail */,
 				059FCE85285CBB1400F74B6D /* Listing */,
 				059FCE53285CB31100F74B6D /* DDaySchedularApp.swift */,
@@ -351,8 +378,9 @@
 		059FCE85285CBB1400F74B6D /* Listing */ = {
 			isa = PBXGroup;
 			children = (
-				059FCE83285CB87C00F74B6D /* ListItemView.swift */,
+				05684336286DE36100926194 /* Item */,
 				059FCE8C285CC8C100F74B6D /* ListView.swift */,
+				05684337286DE37800926194 /* ListViewModel.swift */,
 			);
 			path = Listing;
 			sourceTree = "<group>";
@@ -361,7 +389,7 @@
 			isa = PBXGroup;
 			children = (
 				059FCE8A285CBE9700F74B6D /* DetailView.swift */,
-				056842E6285D941400926194 /* EditDetailView.swift */,
+				05684332286DE01600926194 /* DetailViewModel.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -704,10 +732,14 @@
 				056842F2286086A000926194 /* Item+Identifiable.swift in Sources */,
 				056842DA285CF00300926194 /* ComplicationViews.swift in Sources */,
 				059FCE54285CB31100F74B6D /* DDaySchedularApp.swift in Sources */,
+				05684335286DE20800926194 /* ListItemViewModel.swift in Sources */,
 				059FCE8B285CBE9700F74B6D /* DetailView.swift in Sources */,
 				059FCE60285CB31200F74B6D /* DDaySchedular.xcdatamodeld in Sources */,
+				05684331286DD58800926194 /* EditDetailViewModel.swift in Sources */,
 				059FCE84285CB87C00F74B6D /* ListItemView.swift in Sources */,
+				05684333286DE01600926194 /* DetailViewModel.swift in Sources */,
 				056842E5285D8A3600926194 /* Date+calculate.swift in Sources */,
+				05684338286DE37800926194 /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

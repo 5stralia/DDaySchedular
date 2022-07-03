@@ -60,5 +60,32 @@ struct PersistenceController {
             }
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
+
+    }
+
+}
+
+extension NSManagedObjectContext {
+    func saveContext() {
+        do {
+            try self.save()
+        } catch {
+            let error = error as NSError
+            fatalError("Unresolved Error: \(error), \(error.userInfo)")
+        }
+    }
+
+    func fetchItems() -> [Item] {
+        let request = Item.fetchRequest()
+        let sort = NSSortDescriptor(keyPath: \Item.timestamp, ascending: false)
+        request.sortDescriptors = [sort]
+
+        do {
+            let items: [Item] = try self.fetch(request)
+            return items
+        } catch {
+            let nsError = error as NSError
+            fatalError("Unresolved Error: \(nsError), \(nsError.userInfo)")
+        }
     }
 }

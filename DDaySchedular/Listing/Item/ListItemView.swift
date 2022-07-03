@@ -8,29 +8,25 @@
 import SwiftUI
 
 struct ListItemView: View {
-    @State private var title: String
-    @State private var date: Date
-    @State private var dDay: Int
+    @ObservedObject var viewModel: ListItemViewModel
 
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title)
+            Text(viewModel.title)
             Spacer()
             HStack {
-                Text(date, formatter: itemDateFormatter)
+                Text(viewModel.date, formatter: itemDateFormatter)
                     .foregroundColor(.secondary)
                     .font(Font.system(size: 15))
                 Spacer()
-                Text("\(dDay > 0 ? "+" : "")\(dDay)")
-                    .foregroundColor(dDayColor(dDay))
+                Text("\(viewModel.dDay > 0 ? "+" : "")\(viewModel.dDay)")
+                    .foregroundColor(dDayColor(viewModel.dDay))
             }
         }
     }
 
     init(title: String, date: Date, dDay: Int) {
-        _title = State(initialValue: title)
-        _date = State(initialValue: date)
-        _dDay = State(initialValue: dDay)
+        self.viewModel = ListItemViewModel(title: title, date: date, dDay: dDay)
     }
 
     private func dDayColor(_ days: Int) -> Color {
@@ -52,6 +48,14 @@ public let itemDateFormatter: DateFormatter = {
 
 struct DDayListItem_Previews: PreviewProvider {
     static var previews: some View {
-        ListItemView(title: "TEST", date: Date(), dDay: 100)
+        Group {
+            ListItemView(title: "TEST", date: Date(), dDay: 100)
+                .previewLayout(.fixed(width: 400, height: 50))
+            ListItemView(title: "TEST", date: Date(), dDay: 0)
+                .previewLayout(.fixed(width: 400, height: 50))
+            ListItemView(title: "TEST", date: Date(), dDay: -100)
+                .previewLayout(.fixed(width: 400, height: 50))
+        }
+
     }
 }

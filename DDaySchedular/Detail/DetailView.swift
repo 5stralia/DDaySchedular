@@ -8,51 +8,15 @@
 import SwiftUI
 
 struct DetailView: View {
-    @Environment(\.managedObjectContext) private var viewContext
-
-//    @State private var title: String = ""
-//    @State private var timestamp: Date = Date()
-//    @State private var reminders: [Int] = []
-
-//    let item: Item
-
-    @ObservedObject var item: Item
-
-//    var body: some View {
-//        VStack {
-//            Text(title)
-//            Text(timestamp, formatter: timeFormatter)
-//            List {
-//                ForEach(reminders, id: \.self) { reminder in
-//                    if let toDate = timestamp.calculate(addingDay: reminder) {
-//                        HStack {
-//                            Text("\(reminder)일")
-//                            Spacer()
-//                            Text("\(toDate, formatter: timeFormatter)")
-//                        }
-//                    }
-//                }
-//            }
-//        }
-//        .toolbar {
-//            ToolbarItem(placement: .navigationBarTrailing) {
-//                NavigationLink {
-//                    EditDetailView(item: item)
-//                } label: {
-//                    Text("Edit")
-//                }
-//            }
-//        }
-////        .onAppear(perform: refresh)
-//    }
+    @ObservedObject var viewModel: DetailViewModel
 
     var body: some View {
         VStack {
-            Text(item.title!)
-            Text(item.timestamp!, formatter: timeFormatter)
+            Text(viewModel.title)
+            Text(viewModel.date, formatter: timeFormatter)
             List {
-                ForEach(item.reminders!, id: \.self) { reminder in
-                    if let toDate = item.timestamp!.calculate(addingDay: reminder) {
+                ForEach(viewModel.reminders, id: \.self) { reminder in
+                    if let toDate = viewModel.date.calculate(addingDay: reminder) {
                         HStack {
                             Text("\(reminder)일")
                             Spacer()
@@ -65,28 +29,17 @@ struct DetailView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 NavigationLink {
-                    EditDetailView(item: item)
+                    EditDetailView(item: viewModel.item)
                 } label: {
                     Text("Edit")
                 }
             }
         }
-//        .onAppear(perform: refresh)
     }
 
-//    init(item: Item) {
-//        self.item = item
-//        _title = State(initialValue: item.title!)
-//        _timestamp = State(initialValue: item.timestamp!)
-//        _reminders = State(initialValue: item.reminders!)
-//    }
-//
-//    private func refresh() {
-//        title = item.title!
-//        timestamp = item.timestamp!
-//        reminders = item.reminders!
-//    }
-
+    init(item: Item) {
+        self.viewModel = DetailViewModel(item: item)
+    }
 }
 
 private let timeFormatter: DateFormatter = {
