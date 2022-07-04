@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05189AF6287321F500D0E929 /* DDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189AF5287321F500D0E929 /* DDayApp.swift */; };
+		05189AF8287321F500D0E929 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189AF7287321F500D0E929 /* ContentView.swift */; };
+		05189AFA287321F600D0E929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05189AF9287321F600D0E929 /* Assets.xcassets */; };
+		05189AFD287321F600D0E929 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05189AFC287321F600D0E929 /* Preview Assets.xcassets */; };
+		05189B01287321F600D0E929 /* DDay WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 05189B00287321F600D0E929 /* DDay WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		05189B06287321F700D0E929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05189B05287321F700D0E929 /* Assets.xcassets */; };
+		05189B0C287321F700D0E929 /* DDay WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 05189B0B287321F700D0E929 /* DDay WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		05189B11287321F700D0E929 /* DDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B10287321F700D0E929 /* DDayApp.swift */; };
+		05189B13287321F700D0E929 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B12287321F700D0E929 /* ContentView.swift */; };
+		05189B15287321F700D0E929 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B14287321F700D0E929 /* NotificationController.swift */; };
+		05189B17287321F700D0E929 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B16287321F700D0E929 /* NotificationView.swift */; };
+		05189B19287321F700D0E929 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B18287321F700D0E929 /* ComplicationController.swift */; };
+		05189B1B287321F700D0E929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05189B1A287321F700D0E929 /* Assets.xcassets */; };
+		05189B1E287321F700D0E929 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05189B1D287321F700D0E929 /* Preview Assets.xcassets */; };
+		05189B322873224400D0E929 /* DDayModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05189B302873224400D0E929 /* DDayModel.xcdatamodeld */; };
+		05189B34287322B600D0E929 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B33287322B600D0E929 /* Persistence.swift */; };
+		05189B372873238600D0E929 /* DDayItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B352873238600D0E929 /* DDayItem+CoreDataClass.swift */; };
+		05189B382873238600D0E929 /* DDayItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B362873238600D0E929 /* DDayItem+CoreDataProperties.swift */; };
+		05189B4F287326E400D0E929 /* TextInputAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B4D287326E300D0E929 /* TextInputAlertView.swift */; };
+		05189B50287326E400D0E929 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B4E287326E400D0E929 /* Popup.swift */; };
+		05189B55287326FC00D0E929 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B53287326FC00D0E929 /* DetailViewModel.swift */; };
+		05189B56287326FC00D0E929 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B54287326FC00D0E929 /* DetailView.swift */; };
+		05189B5A2873270F00D0E929 /* EditDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B582873270F00D0E929 /* EditDetailViewModel.swift */; };
+		05189B5B2873270F00D0E929 /* EditDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B592873270F00D0E929 /* EditDetailView.swift */; };
+		05189B5E2873271F00D0E929 /* Date+calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B5D2873271F00D0E929 /* Date+calculate.swift */; };
+		05189B622873272E00D0E929 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B602873272E00D0E929 /* ListView.swift */; };
+		05189B632873272E00D0E929 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B612873272E00D0E929 /* ListViewModel.swift */; };
+		05189B672873273F00D0E929 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B652873273F00D0E929 /* ListItemView.swift */; };
+		05189B682873273F00D0E929 /* ListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05189B662873273F00D0E929 /* ListItemViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05189B02287321F600D0E929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05189AEA287321F500D0E929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05189AFF287321F600D0E929;
+			remoteInfo = "DDay WatchKit App";
+		};
+		05189B0D287321F700D0E929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05189AEA287321F500D0E929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05189B0A287321F700D0E929;
+			remoteInfo = "DDay WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05189B26287321F700D0E929 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				05189B0C287321F700D0E929 /* DDay WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05189B2A287321F700D0E929 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				05189B01287321F600D0E929 /* DDay WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05189AF2287321F500D0E929 /* DDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05189AF5287321F500D0E929 /* DDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDayApp.swift; sourceTree = "<group>"; };
+		05189AF7287321F500D0E929 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05189AF9287321F600D0E929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05189AFC287321F600D0E929 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05189B00287321F600D0E929 /* DDay WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DDay WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05189B05287321F700D0E929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05189B0B287321F700D0E929 /* DDay WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DDay WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05189B10287321F700D0E929 /* DDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDayApp.swift; sourceTree = "<group>"; };
+		05189B12287321F700D0E929 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05189B14287321F700D0E929 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		05189B16287321F700D0E929 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		05189B18287321F700D0E929 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		05189B1A287321F700D0E929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05189B1D287321F700D0E929 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05189B1F287321F700D0E929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05189B20287321F700D0E929 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		05189B312873224400D0E929 /* DDayModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DDayModel.xcdatamodel; sourceTree = "<group>"; };
+		05189B33287322B600D0E929 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		05189B352873238600D0E929 /* DDayItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DDayItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05189B362873238600D0E929 /* DDayItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DDayItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05189B4D287326E300D0E929 /* TextInputAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputAlertView.swift; sourceTree = "<group>"; };
+		05189B4E287326E400D0E929 /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		05189B53287326FC00D0E929 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		05189B54287326FC00D0E929 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		05189B582873270F00D0E929 /* EditDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDetailViewModel.swift; sourceTree = "<group>"; };
+		05189B592873270F00D0E929 /* EditDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDetailView.swift; sourceTree = "<group>"; };
+		05189B5D2873271F00D0E929 /* Date+calculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+calculate.swift"; sourceTree = "<group>"; };
+		05189B602873272E00D0E929 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		05189B612873272E00D0E929 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		05189B652873273F00D0E929 /* ListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		05189B662873273F00D0E929 /* ListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05189AEF287321F500D0E929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05189B08287321F700D0E929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05189AE9287321F500D0E929 = {
+			isa = PBXGroup;
+			children = (
+				05189AF4287321F500D0E929 /* DDay */,
+				05189B04287321F600D0E929 /* DDay WatchKit App */,
+				05189B0F287321F700D0E929 /* DDay WatchKit Extension */,
+				05189AF3287321F500D0E929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05189AF3287321F500D0E929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05189AF2287321F500D0E929 /* DDay.app */,
+				05189B00287321F600D0E929 /* DDay WatchKit App.app */,
+				05189B0B287321F700D0E929 /* DDay WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05189AF4287321F500D0E929 /* DDay */ = {
+			isa = PBXGroup;
+			children = (
+				05189B5F2873272600D0E929 /* Listring */,
+				05189B5C2873271400D0E929 /* Extension */,
+				05189B572873270700D0E929 /* EditDetail */,
+				05189B52287326F200D0E929 /* Detail */,
+				05189B51287326EA00D0E929 /* Common */,
+				05189B352873238600D0E929 /* DDayItem+CoreDataClass.swift */,
+				05189B362873238600D0E929 /* DDayItem+CoreDataProperties.swift */,
+				05189AF5287321F500D0E929 /* DDayApp.swift */,
+				05189AF7287321F500D0E929 /* ContentView.swift */,
+				05189AF9287321F600D0E929 /* Assets.xcassets */,
+				05189AFB287321F600D0E929 /* Preview Content */,
+				05189B302873224400D0E929 /* DDayModel.xcdatamodeld */,
+				05189B33287322B600D0E929 /* Persistence.swift */,
+			);
+			path = DDay;
+			sourceTree = "<group>";
+		};
+		05189AFB287321F600D0E929 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05189AFC287321F600D0E929 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05189B04287321F600D0E929 /* DDay WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				05189B05287321F700D0E929 /* Assets.xcassets */,
+			);
+			path = "DDay WatchKit App";
+			sourceTree = "<group>";
+		};
+		05189B0F287321F700D0E929 /* DDay WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				05189B10287321F700D0E929 /* DDayApp.swift */,
+				05189B12287321F700D0E929 /* ContentView.swift */,
+				05189B14287321F700D0E929 /* NotificationController.swift */,
+				05189B16287321F700D0E929 /* NotificationView.swift */,
+				05189B18287321F700D0E929 /* ComplicationController.swift */,
+				05189B1A287321F700D0E929 /* Assets.xcassets */,
+				05189B1F287321F700D0E929 /* Info.plist */,
+				05189B20287321F700D0E929 /* PushNotificationPayload.apns */,
+				05189B1C287321F700D0E929 /* Preview Content */,
+			);
+			path = "DDay WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		05189B1C287321F700D0E929 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05189B1D287321F700D0E929 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05189B51287326EA00D0E929 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				05189B4E287326E400D0E929 /* Popup.swift */,
+				05189B4D287326E300D0E929 /* TextInputAlertView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		05189B52287326F200D0E929 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				05189B54287326FC00D0E929 /* DetailView.swift */,
+				05189B53287326FC00D0E929 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		05189B572873270700D0E929 /* EditDetail */ = {
+			isa = PBXGroup;
+			children = (
+				05189B592873270F00D0E929 /* EditDetailView.swift */,
+				05189B582873270F00D0E929 /* EditDetailViewModel.swift */,
+			);
+			path = EditDetail;
+			sourceTree = "<group>";
+		};
+		05189B5C2873271400D0E929 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				05189B5D2873271F00D0E929 /* Date+calculate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		05189B5F2873272600D0E929 /* Listring */ = {
+			isa = PBXGroup;
+			children = (
+				05189B642873273700D0E929 /* Item */,
+				05189B602873272E00D0E929 /* ListView.swift */,
+				05189B612873272E00D0E929 /* ListViewModel.swift */,
+			);
+			path = Listring;
+			sourceTree = "<group>";
+		};
+		05189B642873273700D0E929 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				05189B652873273F00D0E929 /* ListItemView.swift */,
+				05189B662873273F00D0E929 /* ListItemViewModel.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05189AF1287321F500D0E929 /* DDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05189B2B287321F700D0E929 /* Build configuration list for PBXNativeTarget "DDay" */;
+			buildPhases = (
+				05189AEE287321F500D0E929 /* Sources */,
+				05189AEF287321F500D0E929 /* Frameworks */,
+				05189AF0287321F500D0E929 /* Resources */,
+				05189B2A287321F700D0E929 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05189B03287321F600D0E929 /* PBXTargetDependency */,
+			);
+			name = DDay;
+			productName = DDay;
+			productReference = 05189AF2287321F500D0E929 /* DDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05189AFF287321F600D0E929 /* DDay WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05189B27287321F700D0E929 /* Build configuration list for PBXNativeTarget "DDay WatchKit App" */;
+			buildPhases = (
+				05189AFE287321F600D0E929 /* Resources */,
+				05189B26287321F700D0E929 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05189B0E287321F700D0E929 /* PBXTargetDependency */,
+			);
+			name = "DDay WatchKit App";
+			productName = "DDay WatchKit App";
+			productReference = 05189B00287321F600D0E929 /* DDay WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		05189B0A287321F700D0E929 /* DDay WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05189B23287321F700D0E929 /* Build configuration list for PBXNativeTarget "DDay WatchKit Extension" */;
+			buildPhases = (
+				05189B07287321F700D0E929 /* Sources */,
+				05189B08287321F700D0E929 /* Frameworks */,
+				05189B09287321F700D0E929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DDay WatchKit Extension";
+			productName = "DDay WatchKit Extension";
+			productReference = 05189B0B287321F700D0E929 /* DDay WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05189AEA287321F500D0E929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					05189AF1287321F500D0E929 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					05189AFF287321F600D0E929 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					05189B0A287321F700D0E929 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 05189AED287321F500D0E929 /* Build configuration list for PBXProject "DDay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05189AE9287321F500D0E929;
+			productRefGroup = 05189AF3287321F500D0E929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05189AF1287321F500D0E929 /* DDay */,
+				05189AFF287321F600D0E929 /* DDay WatchKit App */,
+				05189B0A287321F700D0E929 /* DDay WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05189AF0287321F500D0E929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05189AFD287321F600D0E929 /* Preview Assets.xcassets in Resources */,
+				05189AFA287321F600D0E929 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05189AFE287321F600D0E929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05189B06287321F700D0E929 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05189B09287321F700D0E929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05189B1E287321F700D0E929 /* Preview Assets.xcassets in Resources */,
+				05189B1B287321F700D0E929 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05189AEE287321F500D0E929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05189B5E2873271F00D0E929 /* Date+calculate.swift in Sources */,
+				05189B382873238600D0E929 /* DDayItem+CoreDataProperties.swift in Sources */,
+				05189B372873238600D0E929 /* DDayItem+CoreDataClass.swift in Sources */,
+				05189B672873273F00D0E929 /* ListItemView.swift in Sources */,
+				05189B50287326E400D0E929 /* Popup.swift in Sources */,
+				05189B5B2873270F00D0E929 /* EditDetailView.swift in Sources */,
+				05189B632873272E00D0E929 /* ListViewModel.swift in Sources */,
+				05189B5A2873270F00D0E929 /* EditDetailViewModel.swift in Sources */,
+				05189B56287326FC00D0E929 /* DetailView.swift in Sources */,
+				05189B322873224400D0E929 /* DDayModel.xcdatamodeld in Sources */,
+				05189B55287326FC00D0E929 /* DetailViewModel.swift in Sources */,
+				05189B4F287326E400D0E929 /* TextInputAlertView.swift in Sources */,
+				05189B622873272E00D0E929 /* ListView.swift in Sources */,
+				05189B34287322B600D0E929 /* Persistence.swift in Sources */,
+				05189AF8287321F500D0E929 /* ContentView.swift in Sources */,
+				05189B682873273F00D0E929 /* ListItemViewModel.swift in Sources */,
+				05189AF6287321F500D0E929 /* DDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05189B07287321F700D0E929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05189B15287321F700D0E929 /* NotificationController.swift in Sources */,
+				05189B13287321F700D0E929 /* ContentView.swift in Sources */,
+				05189B19287321F700D0E929 /* ComplicationController.swift in Sources */,
+				05189B11287321F700D0E929 /* DDayApp.swift in Sources */,
+				05189B17287321F700D0E929 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05189B03287321F600D0E929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05189AFF287321F600D0E929 /* DDay WatchKit App */;
+			targetProxy = 05189B02287321F600D0E929 /* PBXContainerItemProxy */;
+		};
+		05189B0E287321F700D0E929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05189B0A287321F700D0E929 /* DDay WatchKit Extension */;
+			targetProxy = 05189B0D287321F700D0E929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05189B21287321F700D0E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05189B22287321F700D0E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		05189B24287321F700D0E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDay WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DDay WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DDay WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDay.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		05189B25287321F700D0E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDay WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DDay WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DDay WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDay.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		05189B28287321F700D0E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DDay_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DDay WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hoju.DDay;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		05189B29287321F700D0E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DDay_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DDay WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hoju.DDay;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		05189B2C287321F700D0E929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDay/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05189B2D287321F700D0E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DDay/Preview Content\"";
+				DEVELOPMENT_TEAM = BG5DA8S34C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hoju.DDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05189AED287321F500D0E929 /* Build configuration list for PBXProject "DDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05189B21287321F700D0E929 /* Debug */,
+				05189B22287321F700D0E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05189B23287321F700D0E929 /* Build configuration list for PBXNativeTarget "DDay WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05189B24287321F700D0E929 /* Debug */,
+				05189B25287321F700D0E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05189B27287321F700D0E929 /* Build configuration list for PBXNativeTarget "DDay WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05189B28287321F700D0E929 /* Debug */,
+				05189B29287321F700D0E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05189B2B287321F700D0E929 /* Build configuration list for PBXNativeTarget "DDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05189B2C287321F700D0E929 /* Debug */,
+				05189B2D287321F700D0E929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05189B302873224400D0E929 /* DDayModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05189B312873224400D0E929 /* DDayModel.xcdatamodel */,
+			);
+			currentVersion = 05189B312873224400D0E929 /* DDayModel.xcdatamodel */;
+			path = DDayModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05189AEA287321F500D0E929 /* Project object */;
+}
